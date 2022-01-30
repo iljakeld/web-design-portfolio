@@ -1,0 +1,29 @@
+.header-nav {
+  display: flex;
+  justify-content: center;
+
+  &__item:not(:last-child) {
+    margin-right: 70px;
+  }
+
+  &__link {
+    position: relative;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: var(--primary-background-color);
+    text-decoration: none;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color 300ms var(--standart-animation);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+}

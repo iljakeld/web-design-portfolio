@@ -1,0 +1,137 @@
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  padding-top: 56px;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #fef8b9;
+  --accent-color: #ac8daf;
+  --white-color: #fff;
+  --primary-background-color: #072446;
+  --secondary-background-color: #f5f4fa;
+  --logo-studio-header-color: #000000;
+  --footer-studio-footer-color: #fff;
+  --footer-contacts-color: rgb(255, 255, 255, 0.6);
+  --standart-animation: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-nav__item:not(:last-child) {
+  margin-right: 70px;
+}
+
+.header-nav__link {
+  position: relative;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--primary-background-color);
+  text-decoration: none;
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  -webkit-transition: color 300ms var(--standart-animation);
+  transition: color 300ms var(--standart-animation);
+}
+
+.header-nav__link:hover, .header-nav__link:focus {
+  color: var(--accent-color);
+}
+
+.section {
+  margin-top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__hero {
+  background-color: var(--primary-background-color);
+  padding: 200px auto;
+}
+
+.header-line {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: var(--white-color);
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header .page-header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero {
+  background-color: var(--primary-background-color);
+  margin-top: 0;
+  height: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-title {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 70px;
+  color: var(--title-text-color);
+}
+
+.hero-icon {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  fill: currentColor;
+  color: #db2828;
+}
+/*# sourceMappingURL=main.css.map */
